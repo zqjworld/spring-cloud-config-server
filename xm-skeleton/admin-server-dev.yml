@@ -1,7 +1,5 @@
 server:
   port: 20003
-  servlet:
-    context-path: /skeleton/
 
 upload:
   rootPath: D:\uploads
