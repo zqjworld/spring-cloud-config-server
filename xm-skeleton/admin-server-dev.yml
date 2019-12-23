@@ -79,9 +79,9 @@ skeleton:
 # 忽略鉴权url
 ignored:
   urls:
-    - /permission/getMenuList/**
-    - /user/regist
-    - /common/**
+    - /skeleton/permission/getMenuList/**
+    - /skeleton/user/regist
+    - /skeleton/common/**
     - /druid/**
     - /**/*.js
     - /**/*.css
