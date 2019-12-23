@@ -34,7 +34,7 @@ spring:
         # 允许清空统计数据
         reset-enable: true
         login-username: root
-        login-password: root
+        login-password: 123456
         # IP白名单 多个逗号分隔
         allow:
         # IP黑名单
