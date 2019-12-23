@@ -20,6 +20,10 @@ spring:
           uri: ${micro-server.api-server}
           predicates:
             - Path=/api/**
+        - id: route_admin_server
+          uri: http://localhost:20003/
+          predicates:
+            - Path=/skeleton/**
   # Redis
   redis:
     host: 127.0.0.1
