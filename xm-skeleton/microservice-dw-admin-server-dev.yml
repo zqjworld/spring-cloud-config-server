@@ -48,7 +48,11 @@ spring:
     port: 6379
     timeout: 3000
     #password: 69F0ef5dd1d62ab48b13834286403A
-
+  rabbitmq: #rabbitmq相关配置
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
   # 定时任务
   quartz:
     # 任务信息存储至数据库
