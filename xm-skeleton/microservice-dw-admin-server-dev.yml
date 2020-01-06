@@ -134,3 +134,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:7001/eureka/
+
+ss:
+  info: 123
