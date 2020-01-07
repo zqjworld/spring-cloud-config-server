@@ -7,7 +7,7 @@ micro-server:
  
 spring:
   application:
-    name: microservicecloud-dw-gateway-server
+    name: microservice-dw-gateway-server
 
   cloud:
     gateway:
